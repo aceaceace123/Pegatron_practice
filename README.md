@@ -69,6 +69,8 @@ To calculate test coverage, you can use the `coverage` package:
 ```bash
 coverage run -m unittest test_main.py
 coverage report -m
+coverage html
+open htmlcov/index.html
 ```
 
 ## CSV File Format
